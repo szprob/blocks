@@ -1,0 +1,7 @@
+# 核心依赖（跨平台）
+numpy>=1.24
+sounddevice>=0.4.6      # 跨平台音频采集/播放（基于 PortAudio，wheel 自带）
+websockets>=12.0        # 异步 WebSocket 服务端/客户端
+
+# 可选：GUI 用 Tkinter（Python 标准库自带，无需在此声明）
+# 可选：RVC 后端需要 torch + 你自己的 RVC 实现，见 README
